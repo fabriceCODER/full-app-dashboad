@@ -1,0 +1,97 @@
+body {
+     margin: 0;
+     padding: 0;
+     background-color: black;
+   }
+   
+   header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+   }
+   
+   .logo img {
+     font-size: medium;
+   }
+   
+   .container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 300px;
+    margin-top: 160px;     
+   }
+   
+   .register-form {
+     background-color: #fff;
+     padding: 20px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     width: 520px;
+     line-height: 0.4;
+     border:blue solid 30px;
+
+   }
+   
+   .register-form h3 {
+     text-align: center;
+     margin-top: 20px;
+   }
+   
+   .job-titles {
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 10px;
+     font-size: 1em;
+   }
+   
+   .job-titles label {
+     margin-right: 10px;
+   }
+   
+   .form-row {
+     display: flex;
+     margin-bottom: 4px;
+   }
+   
+   .form-group {
+     flex-grow: 1;
+     margin-right: 10px;
+   }
+   
+   .form-group label {
+     display: block;
+     margin-bottom: 5px;
+   }
+   
+   .form-group input,
+   .form-group select {
+     width: 100%;
+     padding: 10px;
+     border-radius: 3px;
+     border: 1px solid;
+   }
+   
+   .register-button {
+     width: 100%;
+     padding: 10px;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+   }
+   
+   .options {
+     margin-top: 10px;
+     text-align: center;
+   }
+   
+   .options span {
+     margin-right: 5px;
+   }
+   
+   .options a {
+     text-decoration: none;
+     color: blue;
+   }
+   

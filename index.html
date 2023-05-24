@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Register Page</title>
+</head>
+
+<body>
+  <div class="container">
+    <form class="register-form">
+     <header>
+          <div class="logo">
+            <img src="logo.png" alt="Logo">
+          </div>
+        </header>
+      <h3>Register</h3>
+      <div class="job-titles">
+        <label for="trainer">
+          <input type="radio" id="trainer" name="job-title" value="trainer">
+          Trainer
+        </label>
+        <label for="school-manager">
+          <input type="radio" id="school-manager" name="job-title" value="school-manager">
+          School Manager
+        </label>
+        <label for="mayor">
+          <input type="radio" id="mayor" name="job-title" value="mayor">
+          Mayor
+        </label>
+        <label for="dde">
+          <input type="radio" id="dde" name="job-title" value="dde">
+          DDE
+        </label>
+        <label for="rtb">
+          <input type="radio" id="rtb" name="job-title" value="rtb">
+          RTB
+        </label>
+        <label for="ceo">
+          <input type="radio" id="ceo" name="job-title" value="ceo">
+          CEO
+        </label>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname" required>
+        </div>
+        <div class="form-group">
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" name="lastname" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nationalid">National ID:</label>
+          <input type="text" id="nationalid" name="nationalid" required>
+        </div>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="province">Province:</label>
+          <input type="text" id="province" name="province" required>
+        </div>
+        <div class="form-group">
+          <label for="district">District:</label>
+          <input type="text" id="district" name="district" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+      </div>
+      <button type="submit" class="register-button">Register</button>
+      <div class="options">
+        <span>Already registered?</span>
+        <a href="#" class="login-button">Login</a>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
